@@ -1,0 +1,26 @@
+# Environment
+.env
+*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Streamlit
+.streamlit/
+
+# Data
+*.pdf
+*.txt
+data/
+uploads/
+
+# Vector stores
+chroma_db/
+*.index
